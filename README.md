@@ -90,6 +90,11 @@ finally continue completes the rebase `git rebase --continue`
 -----------
 ###STASHING
 
+View all stashed changes:
+$ git stash list
+
+View the changes in a specific stash:
+$ git stash show -p stash@{1}
 
 -----------
 ###PULL REQUESTS
